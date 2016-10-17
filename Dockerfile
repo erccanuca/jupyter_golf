@@ -1,13 +1,14 @@
+# Pull base image.
 FROM andrewosh/binder-base
 
+MAINTAINER Alex Williams <alex.h.willia@gmail.com>
+
+# Switch to root to install stuff
 USER root
+RUN apt-get update 
 
-# Add R dependencies
-RUN apt-get update
-RUN apt-get install -y r-base libzmq3-dev
+# Install R kernel to Jupyter notebook
+RUN conda install -y -c r ipython-notebook r-irkernel
 
-COPY install-irkernel.R /home/install-irkernel.R
-
-RUN R --no-save < /home/install-irkernel.R
+# Switch back to non-root user
 USER main
-
