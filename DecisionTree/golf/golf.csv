@@ -1,0 +1,15 @@
+Vorhersage,Temperatur,Luftfeuchte,windig,Golfen
+sonnig,85,85,nein,nicht spielen
+sonnig,80,90,ja,nicht spielen
+bedeckt,83,78,nein,spielen
+regen,70,96,nein,spielen
+regen,68,80,nein,spielen
+regen,65,70,ja,nicht spielen
+bedeckt,64,65,ja,spielen
+sonnig,72,95,nein,nicht spielen
+sonnig,69,70,nein,spielen
+regen,75,80,nein,spielen
+sonnig,75,70,ja,spielen
+bedeckt,72,90,ja,spielen
+bedeckt,81,75,nein,spielen
+regen,71,80,ja,nicht spielen

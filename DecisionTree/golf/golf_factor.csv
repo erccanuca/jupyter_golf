@@ -1,0 +1,15 @@
+Vorhersage,Temperatur,Luftfeuchte,windig,Golfen
+regen,heiß,hoch,nein,nicht spielen
+regen,heiß,hoch,ja,nicht spielen
+bedeckt,heiß,hoch,nein,spielen
+sonnig,mild,hoch,nein,spielen
+sonnig,kalt,normal,nein,spielen
+sonnig,kalt,normal,ja,nicht spielen
+bedeckt,kalt,normal,ja,spielen
+regen,mild,hoch,nein,nicht spielen
+regen,kalt,normal,nein,spielen
+sonnig,mild,normal,nein,spielen
+regen,mild,normal,ja,spielen
+bedeckt,mild,hoch,ja,spielen
+bedeckt,heiß,normal,nein,spielen
+sonnig,mild,hoch,ja,nicht spielen
