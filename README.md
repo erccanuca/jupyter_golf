@@ -14,6 +14,10 @@ Mit [Mybinder](http://mybinder.org/) existiert auch ein Dienst, welcher Jupyter-
 
 Für lokale Installationen kann auch [RStudio](https://www.rstudio.com/) verwendet werden.
 
+**Start**
+
+    docker run -d -p 8888:8888 -e NB_UID=1000 --user root --name jupyter_golf -v /home/john/src/jupyter/golf:/home/jovyan/work jupyter/datascience-notebook
+
 **Weiterführende Informationen**
 
 * Möglichkeiten der Verwendung von [Data Science Notebooks](https://blog.ouseful.info/2014/12/12/seven-ways-of-running-ipython-notebooks/)
